@@ -53,6 +53,30 @@ This codebase follows **Hexagonal Architecture** (Ports & Adapters) with:
 
 ---
 
+## Health Checks
+
+The application now exposes standard Quarkus health endpoints:
+
+- `GET /q/health`
+- `GET /q/health/live`
+- `GET /q/health/ready`
+
+Custom checks are implemented in:
+
+- `src/main/java/com/fulfilment/application/monolith/health/WarehouseServiceLivenessCheck.java`
+- `src/main/java/com/fulfilment/application/monolith/health/WarehouseServiceReadinessCheck.java`
+
+---
+
+## CI/CD Pipelines
+
+GitHub Actions workflows are available in:
+
+- `/.github/workflows/ci.yml` - runs `clean verify` on pushes and pull requests, uploads JaCoCo report
+- `/.github/workflows/cd.yml` - runs after CI success on `main`, packages app and builds container image
+
+---
+
 ## Running the Code
 
 ```bash

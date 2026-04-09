@@ -1,6 +1,7 @@
 C:\hackathon-java-assignment\src\test\java\com\fulfilment\application\monolith\location\LocationGatewayTest.java
 C:\hackathon-java-assignment\src\test\java\com\fulfilment\application\monolith\stores\StoreEventsTest.java
 C:\hackathon-java-assignment\src\test\java\com\fulfilment\application\monolith\stores\StoreErrorMapperUnitTest.java
+C:\hackathon-java-assignment\src\test\java\com\fulfilment\application\monolith\health\HealthEndpointTest.java
 C:\hackathon-java-assignment\src\test\java\com\fulfilment\application\monolith\products\ProductRepositoryTest.java
 C:\hackathon-java-assignment\src\test\java\com\fulfilment\application\monolith\warehouses\domain\usecases\CreateWarehouseUseCaseTest.java
 C:\hackathon-java-assignment\src\test\java\com\fulfilment\application\monolith\products\ProductResourceUnitTest.java

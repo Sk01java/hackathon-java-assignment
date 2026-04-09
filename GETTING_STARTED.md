@@ -169,6 +169,16 @@ Then attach debugger to port 5005.
 
 Quarkus Dev UI has H2 console: http://localhost:8080/q/dev
 
+### Verify Health Endpoints
+
+```bash
+curl http://localhost:8080/q/health
+curl http://localhost:8080/q/health/live
+curl http://localhost:8080/q/health/ready
+```
+
+Expected top-level response value: `"status":"UP"`
+
 ## Troubleshooting
 
 ### Port 8080 Already in Use
@@ -235,6 +245,13 @@ Once you're comfortable:
 2. 🧪 **Try breaking things** - Change code, see what fails
 3. 🎯 **Attempt the bonus task** - Warehouse search/filter
 4. 📝 **Answer the questions** - In QUESTIONS.md
+
+## Automation
+
+GitHub Actions workflows are available at:
+
+- `.github/workflows/ci.yml` - continuous integration (build, tests, coverage artifact)
+- `.github/workflows/cd.yml` - package and container build after CI success on `main`
 
 ## Resources
 

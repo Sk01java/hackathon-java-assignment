@@ -9,6 +9,7 @@ C:\hackathon-java-assignment\src\main\java\com\fulfilment\application\monolith\l
 C:\hackathon-java-assignment\src\main\java\com\fulfilment\application\monolith\warehouses\domain\ports\LocationResolver.java
 C:\hackathon-java-assignment\src\main\java\com\fulfilment\application\monolith\warehouses\domain\models\Warehouse.java
 C:\hackathon-java-assignment\target\generated-sources\jaxrs\com\warehouse\api\beans\Warehouse.java
+C:\hackathon-java-assignment\src\main\java\com\fulfilment\application\monolith\health\WarehouseServiceLivenessCheck.java
 C:\hackathon-java-assignment\src\main\java\com\fulfilment\application\monolith\warehouses\adapters\restapi\WarehouseResourceImpl.java
 C:\hackathon-java-assignment\src\main\java\com\fulfilment\application\monolith\products\ProductRepository.java
 C:\hackathon-java-assignment\src\main\java\com\fulfilment\application\monolith\warehouses\adapters\database\DbWarehouse.java
@@ -20,6 +21,7 @@ C:\hackathon-java-assignment\src\main\java\com\fulfilment\application\monolith\w
 C:\hackathon-java-assignment\src\main\java\com\fulfilment\application\monolith\warehouses\domain\ports\CreateWarehouseOperation.java
 C:\hackathon-java-assignment\src\main\java\com\fulfilment\application\monolith\products\ProductResource.java
 C:\hackathon-java-assignment\src\main\java\com\fulfilment\application\monolith\stores\StoreUpdatedEvent.java
+C:\hackathon-java-assignment\src\main\java\com\fulfilment\application\monolith\health\WarehouseServiceReadinessCheck.java
 C:\hackathon-java-assignment\src\main\java\com\fulfilment\application\monolith\stores\StoreResource.java
 C:\hackathon-java-assignment\src\main\java\com\fulfilment\application\monolith\products\Product.java
 C:\hackathon-java-assignment\src\main\java\com\fulfilment\application\monolith\stores\LegacyStoreManagerGateway.java

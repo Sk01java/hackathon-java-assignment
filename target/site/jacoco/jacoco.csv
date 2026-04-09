@@ -20,3 +20,5 @@ java-code-assignment,com.fulfilment.application.monolith.warehouses.adapters.res
 java-code-assignment,com.fulfilment.application.monolith.warehouses.domain.usecases,ArchiveWarehouseUseCase,0,39,0,4,0,11,0,4,0,2
 java-code-assignment,com.fulfilment.application.monolith.warehouses.domain.usecases,CreateWarehouseUseCase,0,78,0,8,0,18,0,6,0,2
 java-code-assignment,com.fulfilment.application.monolith.warehouses.domain.usecases,ReplaceWarehouseUseCase,25,72,3,7,4,18,3,4,0,2
+java-code-assignment,com.fulfilment.application.monolith.health,WarehouseServiceReadinessCheck,0,11,0,0,0,5,0,2,0,2
+java-code-assignment,com.fulfilment.application.monolith.health,WarehouseServiceLivenessCheck,0,8,0,0,0,2,0,2,0,2
