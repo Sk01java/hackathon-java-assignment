@@ -1,0 +1,16 @@
+
+PACKAGE                                                          CLASS                     INSTRUCTION_MISSED INSTRUCTION_COVERED
+-------                                                          -----                     ------------------ -------------------
+com.fulfilment.application.monolith.stores                       StoreResource                            157                   0
+com.fulfilment.application.monolith.warehouses.adapters.database WarehouseRepository                      101                   0
+com.fulfilment.application.monolith.stores                       StoreResource.ErrorMapper                 48                   0
+com.fulfilment.application.monolith.warehouses.adapters.restapi  WarehouseResourceImpl                     45                 125
+com.fulfilment.application.monolith.warehouses.adapters.database DbWarehouse                               33                   0
+com.fulfilment.application.monolith.warehouses.domain.usecases   ReplaceWarehouseUseCase                   25                  72
+com.fulfilment.application.monolith.warehouses.domain.usecases   CreateWarehouseUseCase                     9                  69
+com.fulfilment.application.monolith.stores                       LegacyStoreManagerGateway                  3                  56
+com.fulfilment.application.monolith.stores                       Store                                      0                   9
+com.warehouse.api.beans                                          Warehouse                                  0                  38
+
+
+
